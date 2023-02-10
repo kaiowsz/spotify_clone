@@ -1,13 +1,19 @@
+import Sidebar from '@/components/Sidebar'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className="bg-blue-200">
-      <div>
-      </div>
+    <>
+    <main className="bg-black h-screen overflow-hidden">
+      <Sidebar/>
+      {/* Center content */}
     </main>
+
+    <div>
+      {/* Player */}
+    </div>
+    
+    </>
   )
 }
+ 
